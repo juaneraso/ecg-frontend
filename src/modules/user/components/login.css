@@ -1,0 +1,15 @@
+.login{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.login-image {
+    background-color: blue;
+}
+
+.login-form {
+    background-color: red;
+}
