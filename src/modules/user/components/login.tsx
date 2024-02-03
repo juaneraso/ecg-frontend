@@ -1,5 +1,5 @@
 import "./login.css";
-import portada from "../assets/portada.jpeg";
+const imgUrl = new URL("../assets/portada.jpeg", import.meta.url).href;
 
 export function Login() {
   return (
@@ -10,7 +10,7 @@ export function Login() {
             <h1>ECG</h1>
           </div>
           <div className="image">
-            <img src={portada} alt="" />
+            <img src={imgUrl} alt="" />
           </div>
         </div>
         <div className="login-form">
