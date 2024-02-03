@@ -6,10 +6,19 @@
     min-height: 100vh;
 }
 
-.login-image {
+.login .login-image .title {
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-form .title {
+    display: flex;
+    justify-content: center;
+}
+/* .login-image {
     background-color: blue;
 }
 
 .login-form {
     background-color: red;
-}
+} */
