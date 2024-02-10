@@ -1,7 +1,9 @@
-import "./login.css";
+import "./landing.css";
+import { LoginForm } from "./login-form";
+
 const imgUrl = new URL("../assets/portada.jpeg", import.meta.url).href;
 
-export function Login() {
+export function Landing() {
   return (
     <>
       <div className="login">
@@ -17,6 +19,9 @@ export function Login() {
           <div className="title">
             <div>
               <h1>Wellcome to ECG online</h1>
+            </div>
+            <div>
+              <LoginForm />
             </div>
           </div>
         </div>

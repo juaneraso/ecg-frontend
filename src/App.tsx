@@ -1,9 +1,9 @@
-import { Login } from "./modules/user/components/login";
+import { Landing } from "./modules/user/components/landing";
 
 export function App() {
   return (
     <>
-      <Login />
+      <Landing />
     </>
   );
 }
