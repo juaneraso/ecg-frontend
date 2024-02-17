@@ -3,22 +3,26 @@ import "./login-form.css";
 export function LoginForm() {
   return (
     <div className="login-form">
-      <div className="title">
-        <h1>Please fillout your information</h1>
+      <div className="form-title">
+        <h3>Please fillout your information</h3>
       </div>
-      <div className="form">
-        <form>
-          <label>
-            User name
-            <input type="text" />
-          </label>
-          <label>
-            Password
-            <input type="password" />
-          </label>
+      <form>
+        <div>
+          <label>User name</label>
+        </div>
+        <div>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Password</label>
+        </div>
+        <div>
+          <input type="password" />
+        </div>
+        <div className="button-div">
           <input type="submit" value="Login" />
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
 }

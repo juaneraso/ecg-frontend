@@ -7,7 +7,7 @@ export function Landing() {
   return (
     <>
       <div className="login">
-        <div className="login-image">
+        <div className="image-column">
           <div className="title">
             <h1>ECG</h1>
           </div>
@@ -15,11 +15,11 @@ export function Landing() {
             <img src={imgUrl} alt="" />
           </div>
         </div>
-        <div className="login-form">
+        <div className="form-column">
           <div className="title">
-            <div>
-              <h1>Wellcome to ECG online</h1>
-            </div>
+            <h1>Wellcome to ECG online</h1>
+          </div>
+          <div className="form">
             <div>
               <LoginForm />
             </div>

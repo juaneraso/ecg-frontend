@@ -6,15 +6,15 @@
     min-height: 100vh;
 }
 
-.login .login-image .title {
+.login .image-column .title {
     display: flex;
     justify-content: center;
+    padding: 60px;
 }
 
-.login .login-form .title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
+.login .form-column .title {
+    padding: 60px;
 }
 /* .login-image {
     background-color: blue;
